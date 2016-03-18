@@ -1,0 +1,139 @@
+body {
+  background-color: #eee;
+}
+
+.page {
+  width: 75%;
+  background: #fff;
+  padding: 10px;
+  margin: 0 auto;
+  width: 1000px;
+  box-shadow: 0 0 2px 0 #555;
+}
+
+.header,  .mainarea, .footer {
+  padding: 12px 5px;
+  margin: 0 35px;
+}
+
+.sidebar {
+  width: 24.7%;
+  float: left;
+}
+
+.content {
+  float: right;
+  width: 73%;
+}
+
+.description{
+  font-family: sans-serif;
+}
+
+.image {
+  box-sizing: border-box;
+  text-align: center;
+  border: solid 1px #C8C8C8;
+  margin-bottom: 30px;
+}
+
+.description {
+  text-align: left;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.break-float {
+  clear: both;
+}
+
+.mainmenu, 
+.footermenu, 
+.sidebarmenu {
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: 0px;
+  margin: 10px 0;
+  list-style-type: none;
+  background: #5e5e5e;
+  background: linear-gradient(to bottom, #5e5e5e, #444343);
+}
+
+.sidebarmenu {
+  font-size: 12px;
+  padding: 0;
+  margin-top: 0;
+  background: #fff;
+}
+
+.mainmenu li, 
+.footermenu li {
+  display: inline-block;
+  font-size: 14px;
+}
+
+.footermenu a:hover {
+  text-decoration: underline;
+}
+
+.mainmenu a, 
+.footermenu a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 10px 30px;
+}
+
+.mainmenu a {
+  border-left: 1px solid rgba(0, 0, 0, 0);
+  border-right: 1px solid rgba(0, 0, 0, 0);
+}
+
+.footermenu a {
+  color: #464646;
+}
+
+.mainmenu a:hover {
+  border-color: rgba(150, 150, 150, 1);
+  background:#404040;
+}
+
+.sidebarmenu li {
+  border: 1px solid #C8C8C8;
+  border-top-width: 0;
+}
+
+.sidebarmenu li:first-child {
+border-top-width: 1px;
+}
+
+.sidebarmenu a {
+  display: block;
+  padding: 10px 20px;
+  color: #656363;
+  text-decoration: none;
+}
+
+.sidebarmenu a:hover {
+  background:#F9F9F9;
+  color: #000;
+  padding: 10px 30px;
+}
+
+.footermenu, 
+.copyright {
+  float: left;
+  box-sizing: border-box;
+  width: 75%;
+  font-size: 12px;
+  background: #E1E1E1;
+}
+
+.copyright {
+  box-sizing: border-box;
+  width: 25%;
+  margin: 10px -1px;
+  padding: 10px 10px;
+  text-align:right;
+  font-size: 14px;
+}
